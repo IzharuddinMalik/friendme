@@ -1,0 +1,8 @@
+Register
+Register with Google
+
+Register manual
+Name
+username
+password
+sex

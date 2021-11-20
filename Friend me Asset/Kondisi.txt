@@ -1,0 +1,12 @@
+Login
+
+Login manual
+username/email
+password
+remember me
+
+
+Login with Google
+
+Forgot Password
+
