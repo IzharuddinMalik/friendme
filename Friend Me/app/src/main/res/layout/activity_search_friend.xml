@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.searchfriend.SearchFriendActivity"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@color/mainOrangeColor">
+
+        <ImageView
+            android:layout_width="@dimen/_24sdp"
+            android:layout_height="@dimen/_24sdp"
+            android:id="@+id/ivBackSearchFriend"
+            android:src="@drawable/ic_arrowleft"
+            android:layout_margin="@dimen/_10sdp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Search User"
+            android:textSize="@dimen/_14ssp"
+            android:textColor="@color/white"
+            android:fontFamily="@font/roboto_regular"
+            android:layout_marginLeft="@dimen/_20sdp"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@color/mainOrangeColor">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="@dimen/_20sdp"
+            app:cardBackgroundColor="@color/white"
+            android:layout_marginLeft="@dimen/_3sdp"
+            android:layout_marginRight="@dimen/_3sdp"
+            android:layout_marginBottom="@dimen/_3sdp"
+            android:layout_marginTop="@dimen/_10sdp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="@dimen/_18sdp"
+                    android:layout_height="@dimen/_18sdp"
+                    android:src="@drawable/ic_cariroomblack"
+                    android:id="@+id/ivCariFriend"
+                    android:layout_margin="@dimen/_10sdp"/>
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/edtCariFriend"
+                    android:textSize="@dimen/_12ssp"
+                    android:hint="Search User"
+                    android:textColorHint="@color/greyText"
+                    android:textColor="@color/blackText"
+                    android:fontFamily="@font/roboto_regular"
+                    android:inputType="text"
+                    android:layout_gravity="center_vertical"/>
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/rvListCariFriend">
+
+    </androidx.recyclerview.widget.RecyclerView>
+</LinearLayout>

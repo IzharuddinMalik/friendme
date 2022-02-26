@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white">
+
+    <ImageView
+        android:layout_width="@dimen/_48sdp"
+        android:layout_height="@dimen/_12sdp"
+        android:src="@drawable/ic_userfriendme"
+        android:id="@+id/ivUserFriendme"
+        android:layout_marginLeft="@dimen/_10sdp"
+        android:layout_marginTop="@dimen/_3sdp"
+        android:layout_marginBottom="@dimen/_3sdp"
+        android:visibility="gone"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvListNamaUserChatRoom"
+        android:text="Nama User"
+        android:textSize="@dimen/_12ssp"
+        android:textColor="@color/blackText"
+        android:fontFamily="@font/roboto_regular"
+        android:layout_marginLeft="@dimen/_10sdp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvListMessageChatRoom"
+        android:text="Nama User"
+        android:textSize="@dimen/_12ssp"
+        android:textColor="@color/blackText"
+        android:fontFamily="@font/roboto_regular"
+        android:layout_gravity="center_vertical"
+        android:visibility="gone"/>
+
+</LinearLayout>

@@ -1,5 +1,93 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Android Project/coba/Project Friend Me/friend-me-android-apps/Friend Me/app/src/main/res/drawable-v24/background_item_sisi_kanan.xml" value="0.2203125" />
+        <entry key="..\:/Android Project/coba/Project Friend Me/friend-me-android-apps/Friend Me/app/src/main/res/drawable-v24/background_item_sisi_kiri.xml" value="0.2203125" />
+        <entry key="..\:/Android Project/coba/Project Friend Me/friend-me-android-apps/Friend Me/app/src/main/res/drawable-v24/panah_item_sisi_kanan.xml" value="0.2203125" />
+        <entry key="..\:/Android Project/coba/Project Friend Me/friend-me-android-apps/Friend Me/app/src/main/res/drawable-v24/panah_item_sisi_kanan_edit_text.xml" value="0.2203125" />
+        <entry key="..\:/Android Project/coba/Project Friend Me/friend-me-android-apps/Friend Me/app/src/main/res/drawable-v24/panah_item_sisi_kiri.xml" value="0.2203125" />
+        <entry key="..\:/Android Project/coba/Project Friend Me/friend-me-android-apps/Friend Me/app/src/main/res/layout/activity_account_balance.xml" value="0.25" />
+        <entry key="..\:/Android Project/coba/Project Friend Me/friend-me-android-apps/Friend Me/app/src/main/res/layout/activity_buat_feed.xml" value="0.25" />
+        <entry key="..\:/Android Project/coba/Project Friend Me/friend-me-android-apps/Friend Me/app/src/main/res/layout/activity_buat_room.xml" value="0.1213768115942029" />
+        <entry key="..\:/Android Project/coba/Project Friend Me/friend-me-android-apps/Friend Me/app/src/main/res/layout/activity_cari_room.xml" value="0.1" />
+        <entry key="..\:/Android Project/coba/Project Friend Me/friend-me-android-apps/Friend Me/app/src/main/res/layout/activity_change_management_user.xml" value="0.1408514492753623" />
+        <entry key="..\:/Android Project/coba/Project Friend Me/friend-me-android-apps/Friend Me/app/src/main/res/layout/activity_content_dashboard.xml" value="0.14402173913043478" />
+        <entry key="..\:/Android Project/coba/Project Friend Me/friend-me-android-apps/Friend Me/app/src/main/res/layout/activity_content_dashboard_admin.xml" value="0.1408514492753623" />
+        <entry key="..\:/Android Project/coba/Project Friend Me/friend-me-android-apps/Friend Me/app/src/main/res/layout/activity_dashboard.xml" value="0.22" />
+        <entry key="..\:/Android Project/coba/Project Friend Me/friend-me-android-apps/Friend Me/app/src/main/res/layout/activity_dashboard_admin.xml" value="0.1" />
+        <entry key="..\:/Android Project/coba/Project Friend Me/friend-me-android-apps/Friend Me/app/src/main/res/layout/activity_detail_room.xml" value="0.1213768115942029" />
+        <entry key="..\:/Android Project/coba/Project Friend Me/friend-me-android-apps/Friend Me/app/src/main/res/layout/activity_edit_profile.xml" value="0.25" />
+        <entry key="..\:/Android Project/coba/Project Friend Me/friend-me-android-apps/Friend Me/app/src/main/res/layout/activity_emojicons.xml" value="0.13451086956521738" />
+        <entry key="..\:/Android Project/coba/Project Friend Me/friend-me-android-apps/Friend Me/app/src/main/res/layout/activity_find_merchant.xml" value="0.11820652173913043" />
+        <entry key="..\:/Android Project/coba/Project Friend Me/friend-me-android-apps/Friend Me/app/src/main/res/layout/activity_forget_password.xml" value="0.25" />
+        <entry key="..\:/Android Project/coba/Project Friend Me/friend-me-android-apps/Friend Me/app/src/main/res/layout/activity_gift.xml" value="0.11548913043478261" />
+        <entry key="..\:/Android Project/coba/Project Friend Me/friend-me-android-apps/Friend Me/app/src/main/res/layout/activity_gift_sent_user.xml" value="0.11548913043478261" />
+        <entry key="..\:/Android Project/coba/Project Friend Me/friend-me-android-apps/Friend Me/app/src/main/res/layout/activity_list_gift.xml" value="0.25" />
+        <entry key="..\:/Android Project/coba/Project Friend Me/friend-me-android-apps/Friend Me/app/src/main/res/layout/activity_login.xml" value="0.22" />
+        <entry key="..\:/Android Project/coba/Project Friend Me/friend-me-android-apps/Friend Me/app/src/main/res/layout/activity_main.xml" value="0.22" />
+        <entry key="..\:/Android Project/coba/Project Friend Me/friend-me-android-apps/Friend Me/app/src/main/res/layout/activity_management_user.xml" value="0.1408514492753623" />
+        <entry key="..\:/Android Project/coba/Project Friend Me/friend-me-android-apps/Friend Me/app/src/main/res/layout/activity_new_detail_room.xml" value="0.25" />
+        <entry key="..\:/Android Project/coba/Project Friend Me/friend-me-android-apps/Friend Me/app/src/main/res/layout/activity_people.xml" value="0.13949275362318841" />
+        <entry key="..\:/Android Project/coba/Project Friend Me/friend-me-android-apps/Friend Me/app/src/main/res/layout/activity_private_message.xml" value="0.25" />
+        <entry key="..\:/Android Project/coba/Project Friend Me/friend-me-android-apps/Friend Me/app/src/main/res/layout/activity_produce_balance.xml" value="0.1" />
+        <entry key="..\:/Android Project/coba/Project Friend Me/friend-me-android-apps/Friend Me/app/src/main/res/layout/activity_produce_gift.xml" value="0.1408514492753623" />
+        <entry key="..\:/Android Project/coba/Project Friend Me/friend-me-android-apps/Friend Me/app/src/main/res/layout/activity_profile.xml" value="0.22" />
+        <entry key="..\:/Android Project/coba/Project Friend Me/friend-me-android-apps/Friend Me/app/src/main/res/layout/activity_profile_teman.xml" value="0.25" />
+        <entry key="..\:/Android Project/coba/Project Friend Me/friend-me-android-apps/Friend Me/app/src/main/res/layout/activity_register.xml" value="0.1" />
+        <entry key="..\:/Android Project/coba/Project Friend Me/friend-me-android-apps/Friend Me/app/src/main/res/layout/activity_resset_password.xml" value="0.25" />
+        <entry key="..\:/Android Project/coba/Project Friend Me/friend-me-android-apps/Friend Me/app/src/main/res/layout/activity_search_friend.xml" value="0.1308876811594203" />
+        <entry key="..\:/Android Project/coba/Project Friend Me/friend-me-android-apps/Friend Me/app/src/main/res/layout/activity_send_gift.xml" value="0.25" />
+        <entry key="..\:/Android Project/coba/Project Friend Me/friend-me-android-apps/Friend Me/app/src/main/res/layout/activity_transfer_credit.xml" value="0.11820652173913043" />
+        <entry key="..\:/Android Project/coba/Project Friend Me/friend-me-android-apps/Friend Me/app/src/main/res/layout/activity_verifikasi_email.xml" value="0.13405797101449277" />
+        <entry key="..\:/Android Project/coba/Project Friend Me/friend-me-android-apps/Friend Me/app/src/main/res/layout/content_dashboard.xml" value="0.14402173913043478" />
+        <entry key="..\:/Android Project/coba/Project Friend Me/friend-me-android-apps/Friend Me/app/src/main/res/layout/custom_progressbar.xml" value="0.11956521739130435" />
+        <entry key="..\:/Android Project/coba/Project Friend Me/friend-me-android-apps/Friend Me/app/src/main/res/layout/custom_toast.xml" value="0.1" />
+        <entry key="..\:/Android Project/coba/Project Friend Me/friend-me-android-apps/Friend Me/app/src/main/res/layout/dialog_camera_gallery.xml" value="0.13405797101449277" />
+        <entry key="..\:/Android Project/coba/Project Friend Me/friend-me-android-apps/Friend Me/app/src/main/res/layout/dialog_listoption_detailroom.xml" value="0.1" />
+        <entry key="..\:/Android Project/coba/Project Friend Me/friend-me-android-apps/Friend Me/app/src/main/res/layout/dialog_message_logout.xml" value="0.25" />
+        <entry key="..\:/Android Project/coba/Project Friend Me/friend-me-android-apps/Friend Me/app/src/main/res/layout/dialog_preview_fotofeed.xml" value="0.1082427536231884" />
+        <entry key="..\:/Android Project/coba/Project Friend Me/friend-me-android-apps/Friend Me/app/src/main/res/layout/frag_chat.xml" value="0.14945652173913043" />
+        <entry key="..\:/Android Project/coba/Project Friend Me/friend-me-android-apps/Friend Me/app/src/main/res/layout/frag_detail_rom.xml" value="0.22" />
+        <entry key="..\:/Android Project/coba/Project Friend Me/friend-me-android-apps/Friend Me/app/src/main/res/layout/frag_feed.xml" value="0.25" />
+        <entry key="..\:/Android Project/coba/Project Friend Me/friend-me-android-apps/Friend Me/app/src/main/res/layout/frag_home.xml" value="0.25" />
+        <entry key="..\:/Android Project/coba/Project Friend Me/friend-me-android-apps/Friend Me/app/src/main/res/layout/frag_room.xml" value="0.25" />
+        <entry key="..\:/Android Project/coba/Project Friend Me/friend-me-android-apps/Friend Me/app/src/main/res/layout/fragment_managementadmin.xml" value="0.1408514492753623" />
+        <entry key="..\:/Android Project/coba/Project Friend Me/friend-me-android-apps/Friend Me/app/src/main/res/layout/inflater_chat.xml" value="0.25" />
+        <entry key="..\:/Android Project/coba/Project Friend Me/friend-me-android-apps/Friend Me/app/src/main/res/layout/inflater_chatroom.xml" value="0.25" />
+        <entry key="..\:/Android Project/coba/Project Friend Me/friend-me-android-apps/Friend Me/app/src/main/res/layout/inflater_feed.xml" value="0.25" />
+        <entry key="..\:/Android Project/coba/Project Friend Me/friend-me-android-apps/Friend Me/app/src/main/res/layout/inflater_list_anggota.xml" value="0.1" />
+        <entry key="..\:/Android Project/coba/Project Friend Me/friend-me-android-apps/Friend Me/app/src/main/res/layout/inflater_list_cari_friend.xml" value="0.1308876811594203" />
+        <entry key="..\:/Android Project/coba/Project Friend Me/friend-me-android-apps/Friend Me/app/src/main/res/layout/inflater_list_chat.xml" value="0.13949275362318841" />
+        <entry key="..\:/Android Project/coba/Project Friend Me/friend-me-android-apps/Friend Me/app/src/main/res/layout/inflater_list_gift.xml" value="0.25" />
+        <entry key="..\:/Android Project/coba/Project Friend Me/friend-me-android-apps/Friend Me/app/src/main/res/layout/inflater_list_giftadmin.xml" value="0.1408514492753623" />
+        <entry key="..\:/Android Project/coba/Project Friend Me/friend-me-android-apps/Friend Me/app/src/main/res/layout/inflater_list_info_balance.xml" value="0.1" />
+        <entry key="..\:/Android Project/coba/Project Friend Me/friend-me-android-apps/Friend Me/app/src/main/res/layout/inflater_list_people.xml" value="0.13949275362318841" />
+        <entry key="..\:/Android Project/coba/Project Friend Me/friend-me-android-apps/Friend Me/app/src/main/res/layout/inflater_list_useradmin.xml" value="0.1408514492753623" />
+        <entry key="..\:/Android Project/coba/Project Friend Me/friend-me-android-apps/Friend Me/app/src/main/res/layout/inflater_room.xml" value="0.25" />
+        <entry key="..\:/Android Project/coba/Project Friend Me/friend-me-android-apps/Friend Me/app/src/main/res/layout/inflater_status_friend.xml" value="0.12454710144927536" />
+        <entry key="..\:/Android Project/coba/Project Friend Me/friend-me-android-apps/Friend Me/app/src/main/res/layout/inflater_textview.xml" value="0.22" />
+        <entry key="..\:/Android Project/coba/Project Friend Me/friend-me-android-apps/Friend Me/app/src/main/res/layout/inflater_user_chat_room.xml" value="0.1213768115942029" />
+        <entry key="..\:/Android Project/coba/Project Friend Me/friend-me-android-apps/Friend Me/app/src/main/res/layout/inflater_user_gift.xml" value="0.11548913043478261" />
+        <entry key="..\:/Android Project/coba/Project Friend Me/friend-me-android-apps/Friend Me/app/src/main/res/layout/inflater_user_room.xml" value="0.1213768115942029" />
+        <entry key="..\:/Android Project/coba/Project Friend Me/friend-me-android-apps/Friend Me/app/src/main/res/layout/item_mine_message.xml" value="0.1272644927536232" />
+        <entry key="..\:/Android Project/coba/Project Friend Me/friend-me-android-apps/Friend Me/app/src/main/res/layout/item_other_message.xml" value="0.25" />
+        <entry key="..\:/Android Project/coba/Project Friend Me/friend-me-android-apps/Friend Me/app/src/main/res/layout/item_sisi_kanan.xml" value="0.1453804347826087" />
+        <entry key="..\:/Android Project/coba/Project Friend Me/friend-me-android-apps/Friend Me/app/src/main/res/layout/item_sisi_kiri.xml" value="0.1453804347826087" />
+        <entry key="..\:/Android Project/coba/Project Friend Me/friend-me-android-apps/Friend Me/app/src/main/res/layout/new_frag_detail_room.xml" value="0.25" />
+        <entry key="..\:/Android Project/coba/Project Friend Me/friend-me-android-apps/Friend Me/app/src/main/res/layout/shimmer_frag_chat.xml" value="0.14945652173913043" />
+        <entry key="..\:/Android Project/coba/Project Friend Me/friend-me-android-apps/Friend Me/app/src/main/res/layout/shimmer_frag_home.xml" value="0.25" />
+        <entry key="..\:/Android Project/coba/Project Friend Me/friend-me-android-apps/Friend Me/app/src/main/res/layout/shimmer_gift_user.xml" value="0.11548913043478261" />
+        <entry key="..\:/Android Project/coba/Project Friend Me/friend-me-android-apps/Friend Me/app/src/main/res/layout/shimmer_inflater_room.xml" value="0.14945652173913043" />
+        <entry key="..\:/Android Project/coba/Project Friend Me/friend-me-android-apps/Friend Me/app/src/main/res/menu/option_menu.xml" value="0.20416666666666666" />
+        <entry key="..\:/Android Project/coba/Project Friend Me/friend-me-android-apps/Friend Me/app/src/main/res/xml/databot.xml" value="0.12409420289855072" />
+        <entry key="app/src/main/res/layout/activity_content_dashboard.xml" value="0.2128623188405797" />
+        <entry key="app/src/main/res/layout/activity_detail_room.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_new_detail_room.xml" value="0.25" />
+      </map>
+    </option>
+  </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>

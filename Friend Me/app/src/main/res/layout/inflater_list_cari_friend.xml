@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:gravity="center_horizontal">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="@dimen/_80sdp"
+        android:layout_height="@dimen/_80sdp"
+        android:id="@+id/ivAvatarCariFriend"
+        android:src="@drawable/default_avatar"
+        android:layout_marginTop="@dimen/_5sdp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvListNamaCariFriend"
+        android:text="xxx"
+        android:textSize="@dimen/_12ssp"
+        android:textColor="@color/blackText"
+        android:fontFamily="@font/roboto_regular"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:layout_marginBottom="@dimen/_5sdp"
+        android:textAlignment="center"/>
+</LinearLayout>

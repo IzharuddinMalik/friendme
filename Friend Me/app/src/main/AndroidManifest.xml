@@ -2,7 +2,10 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.friendme">
 
-    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
 
     <application
         android:allowBackup="true"
@@ -10,7 +13,106 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.FriendMe">
+        android:theme="@style/Theme.AppCompat.NoActionBar">
+        <activity
+            android:name=".ui.balance.ProduceBalanceActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.dashboardadmin.producegift.ProduceGiftActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.dashboardadmin.producegift.ListGiftActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.dashboardadmin.managementuser.ChangeManagementUserActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.dashboardadmin.managementuser.ManagementUserActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.dashboardadmin.DashboardAdminActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.forgetpass.RessetPasswordActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.forgetpass.ForgetPasswordActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.gift.GiftSentUserActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.gift.SendGiftActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.gift.GiftActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.detailroom.NewDetailRoomActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ui.detailroom.EmojiconsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.dashboard.ContentDashboardActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.privatemessage.PrivateMessageActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.balance.PeopleActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.balance.FindMerchantActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.balance.TransferCreditActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.balance.AccountBalanceActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.profile.ProfileTemanActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.searchfriend.SearchFriendActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.detailroom.DetailRoomActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.dashboard.buatroom.BuatRoomActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.dashboard.cariroom.CariRoomActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.feed.BuatFeedActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.profile.EditProfileActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.register.VerifikasiEmailActivity"
+            android:exported="true">
+            <intent-filter android:autoVerify="true">
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data
+                    android:host="idfriendme.com"
+                    android:pathPrefix="/user/verifikasi"
+                    android:scheme="https" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ui.profile.ProfileActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.dashboard.DashboardActivity"
+            android:exported="false" />
         <activity
             android:name=".ui.register.RegisterActivity"
             android:exported="true" />

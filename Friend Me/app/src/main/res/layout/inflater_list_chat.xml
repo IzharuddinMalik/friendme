@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvListNamaUserChatPM"
+        android:text="Nama User"
+        android:textSize="@dimen/_12ssp"
+        android:textColor="@color/blackText"
+        android:fontFamily="@font/roboto_bold"
+        android:layout_marginLeft="@dimen/_10sdp"
+        android:layout_marginTop="@dimen/_3sdp"
+        android:layout_marginBottom="@dimen/_3sdp"/>
+
+    <io.github.rockerhieu.emojicon.EmojiconTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvListMessageChatPM"
+        android:text="Nama User"
+        android:textSize="@dimen/_12ssp"
+        android:textColor="@color/blackText"
+        android:fontFamily="@font/roboto_regular"
+        android:layout_marginTop="@dimen/_3sdp"
+        android:layout_marginBottom="@dimen/_3sdp"/>
+</LinearLayout>

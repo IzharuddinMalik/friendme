@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.privatemessage.PrivateMessageActivity"
+    android:orientation="vertical"
+    android:background="@color/whitef6">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@color/mainOrangeColor">
+
+        <ImageView
+            android:layout_width="@dimen/_24sdp"
+            android:layout_height="@dimen/_24sdp"
+            android:src="@drawable/ic_arrowleft"
+            android:id="@+id/ivBackPrivateMessage"
+            android:layout_margin="@dimen/_10sdp"/>
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="@dimen/_32sdp"
+            android:layout_height="@dimen/_32sdp"
+            android:id="@+id/ivFotoProfilePrivateMessage"
+            android:src="@drawable/default_avatar"
+            android:layout_gravity="center_vertical"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvUsernamePrivateMessage"
+            android:text="Username"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_12ssp"
+            android:fontFamily="@font/roboto_regular"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:layout_gravity="center_vertical"/>
+    </LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/rvListMessagePrivateMessage"
+        android:layout_weight="1">
+
+    </androidx.recyclerview.widget.RecyclerView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="bottom">
+
+        <io.github.rockerhieu.emojicon.EmojiconEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/edtMessagePM"
+            android:hint="Send Your Message Here"
+            android:textSize="@dimen/_12ssp"
+            android:fontFamily="@font/roboto_regular"
+            android:textColor="@color/blackText"
+            android:textColorHint="@color/greyText"
+            android:layout_marginLeft="@dimen/_5sdp"
+            android:layout_weight="1"/>
+
+        <ImageView
+            android:layout_width="@dimen/_24sdp"
+            android:layout_height="@dimen/_24sdp"
+            android:id="@+id/ivSendPM"
+            android:src="@drawable/ic_sendorange"
+            android:layout_marginRight="@dimen/_10sdp"
+            android:layout_marginLeft="@dimen/_5sdp"/>
+    </LinearLayout>
+</LinearLayout>

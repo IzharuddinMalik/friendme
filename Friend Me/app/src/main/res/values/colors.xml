@@ -7,4 +7,25 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="whitef6">#f6eeee</color>
+    <color name="bg_roomname">#f26628</color>
+    <color name="shadowrommname">#3f322c</color>
+    <color name="spacebetweencolor">#fefcfc</color>
+    <color name="bg_allroom">#FA8452</color>
+
+    <color name="mainOrangeColor">#f26627</color>
+    <color name="secondaryOrangeColor">#FA811E</color>
+    <color name="mainBlueColor">#31B7FF</color>
+    <color name="darkMainBlueColor">#00A6FF</color>
+    <color name="secondaryBlueColor">#71DCFE</color>
+    <color name="blackText">#2D2D2D</color>
+    <color name="greyText">#7E7E7E</color>
+    <color name="grey_transparent_20">#20606060</color>
+    <color name="greenLight">#2DD972</color>
+    <color name="redLight">#FD3E3E</color>
+    <color name="yellowLight">#FFD233</color>
+    <color name="brown">#BF360C</color>
+    <color name="yellowLight2">#FFD954</color>
+
+    <color name="shimmer_placeholder">#dddddd</color>
 </resources>

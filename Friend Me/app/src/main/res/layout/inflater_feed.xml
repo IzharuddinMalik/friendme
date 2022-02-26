@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardBackgroundColor="@color/white"
+    app:cardCornerRadius="@dimen/_5sdp"
+    android:layout_marginTop="@dimen/_5sdp"
+    android:layout_marginRight="@dimen/_10sdp"
+    android:layout_marginLeft="@dimen/_10sdp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_marginLeft="@dimen/_10sdp">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="@dimen/_64sdp"
+                android:layout_height="@dimen/_64sdp"
+                android:id="@+id/civFotoUserFeed"
+                android:src="@drawable/ic_logomini"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tvNamaUserFeed"
+                    android:text="Username"
+                    android:textSize="@dimen/_10ssp"
+                    android:textColor="@color/mainOrangeColor"
+                    android:fontFamily="@font/roboto_bold"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:layout_marginLeft="@dimen/_5sdp"
+                    android:layout_marginRight="@dimen/_5sdp"
+                    android:maxLines="1"
+                    android:ellipsize="end"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tvCreatedOnFeed"
+                    android:text="Created On"
+                    android:textSize="@dimen/_10ssp"
+                    android:textColor="@color/greyText"
+                    android:fontFamily="@font/roboto_regular"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:layout_marginLeft="@dimen/_5sdp"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <io.github.rockerhieu.emojicon.EmojiconTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvMessageFeed"
+            android:text="mESSAGE"
+            android:textSize="@dimen/_12ssp"
+            android:textColor="@color/blackText"
+            android:fontFamily="@font/roboto_regular"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:layout_marginRight="@dimen/_10sdp"
+            android:maxLines="3"
+            android:ellipsize="end"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_150sdp"
+            android:id="@+id/ivFotoFeed"
+            android:src="@drawable/ic_launcher_background"
+            android:layout_marginTop="@dimen/_5sdp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="@dimen/_16sdp"
+                android:layout_height="@dimen/_16sdp"
+                android:src="@drawable/ic_likesorange"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:layout_marginLeft="@dimen/_10sdp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/tvJumlahLikesFeed"
+                android:text="0 People like this"
+                android:textColor="@color/greyText"
+                android:textSize="@dimen/_10ssp"
+                android:fontFamily="@font/roboto_regular"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:layout_marginLeft="@dimen/_10sdp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="@dimen/_16sdp"
+                android:layout_height="@dimen/_16sdp"
+                android:id="@+id/ivLikeFeed"
+                android:src="@drawable/ic_likesblack"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:layout_marginLeft="@dimen/_10sdp"
+                android:layout_weight="1"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                android:gravity="center_horizontal">
+
+                <ImageView
+                    android:layout_width="@dimen/_16sdp"
+                    android:layout_height="@dimen/_16sdp"
+                    android:src="@drawable/ic_commentblack"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:layout_marginLeft="@dimen/_10sdp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tvJumlahKomentarFeed"
+                    android:text="2"
+                    android:textColor="@color/blackText"
+                    android:textSize="@dimen/_10ssp"
+                    android:fontFamily="@font/roboto_bold"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:layout_marginLeft="@dimen/_5sdp"/>
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

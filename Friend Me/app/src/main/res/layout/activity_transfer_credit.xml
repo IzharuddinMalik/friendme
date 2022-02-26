@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.balance.TransferCreditActivity"
+    android:orientation="vertical"
+    android:background="@color/white">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@color/mainOrangeColor">
+
+        <ImageView
+            android:layout_width="@dimen/_24sdp"
+            android:layout_height="@dimen/_24sdp"
+            android:id="@+id/ivBackTransferCredit"
+            android:src="@drawable/ic_arrowleft"
+            android:layout_margin="@dimen/_10sdp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Transfer Credit"
+            android:textSize="@dimen/_14ssp"
+            android:textColor="@color/white"
+            android:fontFamily="@font/roboto_regular"
+            android:layout_marginLeft="@dimen/_20sdp"
+            android:layout_gravity="center_vertical"/>
+    </LinearLayout>
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardBackgroundColor="@color/mainOrangeColor"
+        app:cardElevation="@dimen/_3sdp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Account Balance"
+                android:textSize="@dimen/_12ssp"
+                android:textColor="@color/white"
+                android:fontFamily="@font/roboto_regular"
+                android:layout_margin="@dimen/_10sdp"
+                android:layout_weight="1"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/tvAccountBalanceTransferCredit"
+                android:text="0 IDR"
+                android:textSize="@dimen/_12ssp"
+                android:textColor="@color/white"
+                android:fontFamily="@font/roboto_medium"
+                android:layout_weight="1"
+                android:layout_margin="@dimen/_10sdp"
+                android:textAlignment="textEnd"/>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Username"
+        android:textColorHint="@color/greyText"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:layout_marginLeft="@dimen/_10sdp"
+        android:layout_marginRight="@dimen/_10sdp">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/edtUsernameTransferCredit"
+            android:textColor="@color/blackText"
+            android:textSize="@dimen/_12ssp"
+            android:fontFamily="@font/roboto_regular"
+            android:inputType="textPersonName"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Amount (IDR)"
+        android:textColorHint="@color/greyText"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:layout_marginLeft="@dimen/_10sdp"
+        android:layout_marginRight="@dimen/_10sdp">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/edtAmountMCRTransferCredit"
+            android:textColor="@color/blackText"
+            android:textSize="@dimen/_12ssp"
+            android:fontFamily="@font/roboto_regular"
+            android:inputType="number"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="PIN (default: 000000"
+        android:textColorHint="@color/greyText"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:layout_marginLeft="@dimen/_10sdp"
+        android:layout_marginRight="@dimen/_10sdp">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/edtPinTransferCredit"
+            android:textColor="@color/blackText"
+            android:textSize="@dimen/_12ssp"
+            android:fontFamily="@font/roboto_regular"
+            android:inputType="number"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/cvTransferCredit"
+        app:cardBackgroundColor="@color/secondaryOrangeColor"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:layout_gravity="center_horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TRANSFER CREDIT"
+            android:textSize="@dimen/_12ssp"
+            android:textColor="@color/white"
+            android:fontFamily="@font/roboto_regular"
+            android:layout_margin="@dimen/_7sdp"/>
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

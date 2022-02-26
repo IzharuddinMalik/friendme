@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="@dimen/_40sdp"
+        android:layout_height="@dimen/_40sdp"
+        android:id="@+id/civListProfileStatusFriend"
+        android:src="@drawable/default_avatar"
+        android:layout_margin="@dimen/_5sdp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="@dimen/_16sdp"
+                android:layout_height="@dimen/_16sdp"
+                android:id="@+id/cvListIndicatorStatusFriend"
+                app:cardBackgroundColor="@color/mainOrangeColor"
+                app:cardCornerRadius="@dimen/_10sdp"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:layout_marginLeft="@dimen/_5sdp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/tvListNamaUserStatusFriend"
+                android:text="-"
+                android:textSize="@dimen/_12ssp"
+                android:textColor="@color/blackText"
+                android:fontFamily="@font/roboto_regular"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:layout_marginLeft="@dimen/_5sdp"/>
+        </LinearLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvListMessageStatusFriend"
+            android:text="-"
+            android:textSize="@dimen/_10ssp"
+            android:textColor="@color/blackText"
+            android:fontFamily="@font/roboto_regular"
+            android:layout_marginLeft="@dimen/_5sdp"
+            android:layout_marginTop="@dimen/_10sdp"/>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvListLastSeenStatusFriend"
+        android:text="-"
+        android:textColor="@color/blackText"
+        android:textSize="@dimen/_10ssp"
+        android:fontFamily="@font/roboto_regular"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:layout_marginRight="@dimen/_5sdp"
+        android:layout_weight="1"
+        android:textAlignment="textEnd"/>
+</LinearLayout>

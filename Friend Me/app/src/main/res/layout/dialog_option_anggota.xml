@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="@dimen/_5sdp"
+        app:cardBackgroundColor="@color/mainOrangeColor"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_marginLeft="@dimen/_80sdp"
+        android:layout_marginRight="@dimen/_80sdp"
+        android:id="@+id/cvPrivateMessageOptionAnggota">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Private Message"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_12ssp"
+            android:fontFamily="@font/roboto_medium"
+            android:layout_marginTop="@dimen/_7sdp"
+            android:layout_marginBottom="@dimen/_7sdp"
+            android:textAlignment="center"/>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="@dimen/_5sdp"
+        app:cardBackgroundColor="@color/mainOrangeColor"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_marginLeft="@dimen/_80sdp"
+        android:layout_marginRight="@dimen/_80sdp"
+        android:id="@+id/cvViewProfileOptionAnggota">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="View Profile"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_12ssp"
+            android:fontFamily="@font/roboto_medium"
+            android:layout_marginTop="@dimen/_7sdp"
+            android:layout_marginBottom="@dimen/_7sdp"
+            android:textAlignment="center"/>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="@dimen/_5sdp"
+        app:cardBackgroundColor="@color/mainOrangeColor"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_marginLeft="@dimen/_80sdp"
+        android:layout_marginRight="@dimen/_80sdp"
+        android:id="@+id/cvTransferOptionAnggota">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Transfer"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_12ssp"
+            android:fontFamily="@font/roboto_medium"
+            android:layout_marginTop="@dimen/_7sdp"
+            android:layout_marginBottom="@dimen/_7sdp"
+            android:textAlignment="center"/>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="@dimen/_5sdp"
+        app:cardBackgroundColor="@color/mainOrangeColor"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_marginLeft="@dimen/_80sdp"
+        android:layout_marginRight="@dimen/_80sdp"
+        android:id="@+id/cvKickOptionAnggota">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Kick"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_12ssp"
+            android:fontFamily="@font/roboto_medium"
+            android:layout_marginTop="@dimen/_7sdp"
+            android:layout_marginBottom="@dimen/_7sdp"
+            android:textAlignment="center"/>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="@dimen/_5sdp"
+        app:cardBackgroundColor="@color/mainOrangeColor"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_marginLeft="@dimen/_80sdp"
+        android:layout_marginRight="@dimen/_80sdp"
+        android:layout_marginBottom="@dimen/_10sdp"
+        android:id="@+id/cvInsertOptionAnggota">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Insert"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_12ssp"
+            android:fontFamily="@font/roboto_medium"
+            android:layout_marginTop="@dimen/_7sdp"
+            android:layout_marginBottom="@dimen/_7sdp"
+            android:textAlignment="center"/>
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

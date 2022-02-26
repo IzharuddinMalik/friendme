@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.profile.EditProfileActivity"
+    android:orientation="vertical"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@color/mainOrangeColor">
+
+        <ImageView
+            android:layout_width="@dimen/_24sdp"
+            android:layout_height="@dimen/_24sdp"
+            android:id="@+id/ivBackProfile"
+            android:src="@drawable/ic_arrowleft"
+            android:layout_margin="@dimen/_10sdp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Edit Profil"
+            android:textSize="@dimen/_14ssp"
+            android:textColor="@color/white"
+            android:fontFamily="@font/roboto_regular"
+            android:layout_marginLeft="@dimen/_20sdp"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"/>
+
+        <ImageView
+            android:layout_width="@dimen/_24sdp"
+            android:layout_height="@dimen/_24sdp"
+            android:id="@+id/ivSaveEditProfile"
+            android:src="@drawable/ic_check"
+            android:layout_margin="@dimen/_10sdp"/>
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <androidx.cardview.widget.CardView
+            android:layout_width="@dimen/_80sdp"
+            android:layout_height="@dimen/_80sdp"
+            app:cardBackgroundColor="@color/mainOrangeColor"
+            app:cardCornerRadius="@dimen/_80sdp"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:layout_marginLeft="@dimen/_15sdp"
+            android:layout_gravity="center_horizontal">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center">
+
+                <ImageView
+                    android:layout_width="@dimen/_80sdp"
+                    android:layout_height="@dimen/_80sdp"
+                    android:id="@+id/ivFotoEditProfile"
+                    android:src="@drawable/default_avatar"
+                    android:layout_gravity="center"
+                    android:scaleType="fitXY" />
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="@dimen/_32sdp"
+            android:layout_height="@dimen/_32sdp"
+            app:cardCornerRadius="@dimen/_20sdp"
+            app:cardBackgroundColor="@color/secondaryOrangeColor"
+            android:layout_gravity="center"
+            android:layout_marginLeft="@dimen/_50sdp"
+            android:id="@+id/cvUploadFotoEditProfil">
+
+            <ImageView
+                android:layout_width="@dimen/_18sdp"
+                android:layout_height="@dimen/_18sdp"
+                android:src="@drawable/ic_penciledit"
+                android:layout_gravity="center"/>
+        </androidx.cardview.widget.CardView>
+    </FrameLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_50sdp"
+        android:layout_marginLeft="@dimen/_20sdp"
+        android:layout_marginRight="@dimen/_20sdp"
+        android:hint="Username"
+        android:textColorHint="@color/mainOrangeColor">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tietUsernameEditProfil"
+            android:textColor="@color/blackText"
+            android:textSize="@dimen/_12ssp"
+            android:fontFamily="@font/roboto_regular"
+            android:inputType="textPersonName"
+            android:enabled="false"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_marginLeft="@dimen/_20sdp"
+        android:layout_marginRight="@dimen/_20sdp"
+        android:hint="Email"
+        android:textColorHint="@color/greyText">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tietEmailEditProfil"
+            android:textColor="@color/blackText"
+            android:textSize="@dimen/_12ssp"
+            android:fontFamily="@font/roboto_regular"
+            android:inputType="textEmailAddress"
+            android:enabled="false"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_marginLeft="@dimen/_20sdp"
+        android:layout_marginRight="@dimen/_20sdp"
+        android:hint="Nama"
+        android:textColorHint="@color/greyText">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tietNamaEditProfil"
+            android:textColor="@color/blackText"
+            android:textSize="@dimen/_12ssp"
+            android:fontFamily="@font/roboto_regular"
+            android:inputType="textPersonName"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_marginLeft="@dimen/_20sdp"
+        android:layout_marginRight="@dimen/_20sdp"
+        android:hint="Date of Birth"
+        android:textColorHint="@color/greyText">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tietDateBirthEditProfil"
+            android:textColor="@color/blackText"
+            android:textSize="@dimen/_12ssp"
+            android:fontFamily="@font/roboto_regular"
+            android:inputType="date"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/rgGenderEditProfil"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rbLakilakiEditProfil"
+            android:text="Laki-laki"
+            android:textColor="@color/blackText"
+            android:textSize="@dimen/_12ssp"
+            android:fontFamily="@font/roboto_regular"
+            android:layout_marginLeft="@dimen/_20sdp"/>
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rbPerempuanEditProfil"
+            android:text="Perempuan"
+            android:textColor="@color/blackText"
+            android:textSize="@dimen/_12ssp"
+            android:fontFamily="@font/roboto_regular"
+            android:layout_marginLeft="@dimen/_10sdp"/>
+
+    </RadioGroup>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_marginLeft="@dimen/_20sdp"
+        android:layout_marginRight="@dimen/_20sdp"
+        android:hint="About"
+        android:textColorHint="@color/greyText">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tietAboutEditProfil"
+            android:textColor="@color/blackText"
+            android:textSize="@dimen/_12ssp"
+            android:fontFamily="@font/roboto_regular"
+            android:inputType="text"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+</LinearLayout>

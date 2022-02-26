@@ -1,9 +1,173 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ui.login.LoginActivity">
+    tools:context=".ui.login.LoginActivity"
+    android:orientation="vertical"
+    android:background="@drawable/ic_background">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_80sdp"
+        android:src="@drawable/ic_logomini"/>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="@dimen/_15sdp"
+        app:cardBackgroundColor="@color/white"
+        android:layout_marginLeft="@dimen/_20sdp"
+        android:layout_marginRight="@dimen/_20sdp"
+        android:layout_marginTop="@dimen/_20sdp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Login"
+                android:textSize="@dimen/_14ssp"
+                android:textColor="@color/mainBlueColor"
+                android:fontFamily="@font/roboto_bold"
+                android:layout_marginTop="@dimen/_15sdp"
+                android:textAlignment="center"/>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Username"
+                android:textColorHint="@color/blackText"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:layout_marginLeft="@dimen/_20sdp"
+                android:layout_marginRight="@dimen/_20sdp"
+                app:boxBackgroundColor="@color/white">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tietUsernameLogin"
+                    android:textSize="@dimen/_12ssp"
+                    android:textColor="@color/blackText"
+                    android:fontFamily="@font/roboto_regular"
+                    android:inputType="textPersonName"/>
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Passowrd"
+                android:textColorHint="@color/blackText"
+                android:layout_marginTop="@dimen/_20sdp"
+                android:layout_marginLeft="@dimen/_20sdp"
+                android:layout_marginRight="@dimen/_20sdp"
+                app:boxBackgroundColor="@color/white">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tietPasswordLogin"
+                    android:textSize="@dimen/_12ssp"
+                    android:textColor="@color/blackText"
+                    android:fontFamily="@font/roboto_regular"
+                    android:inputType="textPassword" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/cbLoginAsInvisible"
+                android:text="Login as invisible"
+                android:textColor="@color/secondaryBlueColor"
+                android:textSize="@dimen/_8ssp"
+                android:fontFamily="@font/roboto_regular"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:layout_marginLeft="@dimen/_20sdp"/>
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/cbRemembermeLogin"
+                android:text="Remember Me"
+                android:textColor="@color/secondaryBlueColor"
+                android:textSize="@dimen/_8ssp"
+                android:fontFamily="@font/roboto_regular"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:layout_marginLeft="@dimen/_20sdp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/tvLupaPasswordLogin"
+                android:text="Lupa Password?"
+                android:textSize="@dimen/_10ssp"
+                android:textColor="@color/mainBlueColor"
+                android:fontFamily="@font/roboto_bold"
+                android:textAlignment="textEnd"
+                android:layout_marginRight="@dimen/_20sdp"
+                android:layout_marginTop="@dimen/_5sdp"/>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardBackgroundColor="@color/mainOrangeColor"
+                app:cardCornerRadius="@dimen/_5sdp"
+                android:layout_marginTop="@dimen/_20sdp"
+                android:layout_marginRight="@dimen/_20sdp"
+                android:layout_marginLeft="@dimen/_20sdp"
+                android:id="@+id/cvLogin">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Masuk"
+                    android:textSize="@dimen/_14ssp"
+                    android:textColor="@color/white"
+                    android:fontFamily="@font/roboto_bold"
+                    android:textAlignment="center"
+                    android:layout_margin="@dimen/_10sdp"/>
+
+            </androidx.cardview.widget.CardView>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_horizontal"
+                android:layout_marginBottom="@dimen/_15sdp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Belum punya akun?"
+                    android:textSize="@dimen/_10ssp"
+                    android:textColor="@color/mainBlueColor"
+                    android:fontFamily="@font/roboto_bold"
+                    android:textAlignment="center"
+                    android:layout_marginTop="@dimen/_20sdp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tvRegisterLogin"
+                    android:text="Daftar Akun"
+                    android:textSize="@dimen/_10ssp"
+                    android:textColor="@color/mainBlueColor"
+                    android:fontFamily="@font/roboto_bold"
+                    android:textAlignment="center"
+                    android:layout_marginTop="@dimen/_20sdp"
+                    android:layout_marginLeft="@dimen/_3sdp"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

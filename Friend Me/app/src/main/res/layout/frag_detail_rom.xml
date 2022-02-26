@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvNamaRoomWelcome"
+        android:text="Nama Room"
+        android:textSize="@dimen/_12ssp"
+        android:textColor="@color/blackText"
+        android:fontFamily="@font/roboto_bold"
+        android:layout_marginLeft="@dimen/_10sdp"
+        android:layout_marginTop="@dimen/_3sdp"
+        android:layout_marginBottom="@dimen/_3sdp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvNamaRoomManaged"
+        android:text="Nama Room"
+        android:textSize="@dimen/_12ssp"
+        android:textColor="@color/blackText"
+        android:fontFamily="@font/roboto_bold"
+        android:layout_marginLeft="@dimen/_10sdp"
+        android:layout_marginTop="@dimen/_3sdp"
+        android:layout_marginBottom="@dimen/_3sdp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvNamaRoomCurrently"
+        android:text="Nama Room"
+        android:textSize="@dimen/_12ssp"
+        android:textColor="@color/blackText"
+        android:fontFamily="@font/roboto_bold"
+        android:layout_marginLeft="@dimen/_10sdp"
+        android:layout_marginTop="@dimen/_3sdp"
+        android:layout_marginBottom="@dimen/_3sdp"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/rvListFragChatRoom"
+        android:layout_weight="1">
+
+    </androidx.recyclerview.widget.RecyclerView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="bottom">
+
+        <ImageView
+            android:layout_width="@dimen/_24sdp"
+            android:layout_height="@dimen/_24sdp"
+            android:src="@drawable/ic_listoption"
+            android:id="@+id/ivOptionRoom"
+            android:layout_marginLeft="@dimen/_10sdp"/>
+
+        <io.github.rockerhieu.emojicon.EmojiconEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/edtMessageFragChatRoom"
+            android:hint="Send Your Message Here"
+            android:textSize="@dimen/_12ssp"
+            android:fontFamily="@font/roboto_regular"
+            android:textColor="@color/blackText"
+            android:textColorHint="@color/greyText"
+            android:layout_marginLeft="@dimen/_5sdp"
+            android:layout_weight="1" />
+
+<!--        <androidx.emoji.widget.EmojiButton-->
+<!--            android:layout_width="@dimen/_24sdp"-->
+<!--            android:layout_height="@dimen/_24sdp"-->
+<!--            android:id="@+id/btnEmojiFragChatRoom"-->
+<!--            android:background="@drawable/ic_emojicon"-->
+<!--            android:layout_marginRight="@dimen/_10sdp"-->
+<!--            android:layout_marginLeft="@dimen/_5sdp"-->
+<!--            android:layout_marginBottom="@dimen/_5sdp"/>-->
+
+        <ImageView
+            android:layout_width="@dimen/_24sdp"
+            android:layout_height="@dimen/_24sdp"
+            android:id="@+id/ivSendFragChatRoom"
+            android:src="@drawable/ic_sendorange"
+            android:layout_marginRight="@dimen/_10sdp"
+            android:layout_marginLeft="@dimen/_5sdp"/>
+    </LinearLayout>
+</LinearLayout>

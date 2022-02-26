@@ -1,5 +1,6 @@
 package com.friendme.api
 
+import com.friendme.BuildConfig
 import okhttp3.OkHttpClient
 import okhttp3.logging.HttpLoggingInterceptor
 import retrofit2.Retrofit
@@ -30,6 +31,6 @@ class ApiClient {
 
 class Constants {
     companion object {
-        const val API_ENDPOINT = ""
+        const val API_ENDPOINT = "https://idfriendme.com/apiapps/api/"
     }
 }

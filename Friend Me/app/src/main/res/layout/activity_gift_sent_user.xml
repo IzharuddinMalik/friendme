@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.gift.SendGiftActivity"
+    android:orientation="vertical"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@color/mainOrangeColor">
+
+        <ImageView
+            android:layout_width="@dimen/_24sdp"
+            android:layout_height="@dimen/_24sdp"
+            android:id="@+id/ivBackGiftSent"
+            android:src="@drawable/ic_arrowleft"
+            android:layout_margin="@dimen/_10sdp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Gift Sent"
+            android:textSize="@dimen/_14ssp"
+            android:textColor="@color/white"
+            android:fontFamily="@font/roboto_regular"
+            android:layout_marginLeft="@dimen/_20sdp"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"/>
+    </LinearLayout>
+
+    <com.facebook.shimmer.ShimmerFrameLayout
+        android:id="@+id/shimmerLayoutGiftSentUser"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:ignore="MissingConstraints">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!--add  several shimmer placeholder layout -->
+
+            <include layout="@layout/shimmer_gift_user"></include>
+            <include layout="@layout/shimmer_gift_user"></include>
+            <include layout="@layout/shimmer_gift_user"></include>
+            <include layout="@layout/shimmer_gift_user"></include>
+            <include layout="@layout/shimmer_gift_user"></include>
+        </LinearLayout>
+    </com.facebook.shimmer.ShimmerFrameLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/rvListGiftSentUser"/>
+
+</LinearLayout>

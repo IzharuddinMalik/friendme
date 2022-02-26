@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="@dimen/_2sdp"
+    app:cardBackgroundColor="@color/white"
+    android:layout_marginTop="@dimen/_5sdp"
+    android:layout_marginRight="@dimen/_10sdp"
+    android:layout_marginLeft="@dimen/_10sdp"
+    android:layout_marginBottom="@dimen/_5sdp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="@dimen/_32sdp"
+            android:layout_height="@dimen/_32sdp"
+            android:src="@drawable/ic_greenbalance"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_marginLeft="@dimen/_5sdp"
+            android:layout_marginBottom="@dimen/_10sdp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="1">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/tvListTitleInfoAccountBalance"
+                android:text="-"
+                android:textSize="@dimen/_12ssp"
+                android:textColor="@color/blackText"
+                android:fontFamily="@font/roboto_bold"
+                android:layout_marginLeft="@dimen/_5sdp"
+                android:layout_marginTop="@dimen/_10sdp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/tvListDateInfoAccountBalance"
+                android:text="-"
+                android:textSize="@dimen/_10ssp"
+                android:textColor="@color/blackText"
+                android:fontFamily="@font/roboto_regular"
+                android:layout_marginLeft="@dimen/_5sdp"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@color/greenLight">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/tvJumlahBalanceInfoAccountBalance"
+                android:text="0 IDR"
+                android:textSize="@dimen/_12ssp"
+                android:textColor="@color/white"
+                android:textAlignment="center"
+                android:fontFamily="@font/roboto_regular"
+                android:layout_gravity="center_vertical"
+                android:layout_margin="@dimen/_10sdp"/>
+        </LinearLayout>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
